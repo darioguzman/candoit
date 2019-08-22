@@ -20,7 +20,6 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 @Table(name = "location")
 @EntityListeners(AuditingEntityListener.class)
 @JsonIgnoreProperties(ignoreUnknown = true)
-//@IdClass(LocationId.class)
 public class Location implements Comparable<Location>{
 	
 	public Location(){
@@ -41,11 +40,9 @@ public class Location implements Comparable<Location>{
 	private Long intNumber;
 	
 	@NotBlank
-//	@Id
 	private String name;
 	
 	@NotBlank
-//	@Id
 	private String province;
 	
 	private String lat;

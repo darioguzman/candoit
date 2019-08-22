@@ -19,7 +19,6 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 @Table(name = "weather")
 @EntityListeners(AuditingEntityListener.class)
 @JsonIgnoreProperties(value = {"id"}, ignoreUnknown = true)
-//@IdClass(WeatherId.class)
 public class Weather {
 	
 	private Long humidity;
@@ -38,7 +37,6 @@ public class Weather {
 	private Long id;
 	
 	@NotBlank
-//	@Id
 	private String description;
 	
 	private Double temp;
