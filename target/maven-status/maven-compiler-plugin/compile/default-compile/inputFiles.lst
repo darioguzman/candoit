@@ -1,0 +1,7 @@
+/home/dguzman/git/Daro/weather-application/src/main/java/ar/candoit/weatherapplication/repository/LocationRepository.java
+/home/dguzman/git/Daro/weather-application/src/main/java/ar/candoit/weatherapplication/service/AppService.java
+/home/dguzman/git/Daro/weather-application/src/main/java/ar/candoit/weatherapplication/pojo/Location.java
+/home/dguzman/git/Daro/weather-application/src/main/java/ar/candoit/weatherapplication/service/AppServiceImple.java
+/home/dguzman/git/Daro/weather-application/src/main/java/ar/candoit/weatherapplication/pojo/Weather.java
+/home/dguzman/git/Daro/weather-application/src/main/java/ar/candoit/weatherapplication/WeatherApplication.java
+/home/dguzman/git/Daro/weather-application/src/main/java/ar/candoit/weatherapplication/controller/LocationController.java

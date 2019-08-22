@@ -1,0 +1,5 @@
+ar/candoit/weatherapplication/service/AppServiceImple.class
+ar/candoit/weatherapplication/controller/LocationController.class
+ar/candoit/weatherapplication/repository/LocationRepository.class
+ar/candoit/weatherapplication/WeatherApplication.class
+ar/candoit/weatherapplication/pojo/Weather.class
