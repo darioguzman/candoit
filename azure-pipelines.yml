@@ -28,7 +28,7 @@ stages:
         jdkVersionOption: '1.11'
         jdkArchitectureOption: 'x64'
         publishJUnitResults: false
-        goals: 'package'
+        goals: 'clean install -Dmaven.test.skip=true'
     - task: Docker@2
       displayName: Build an image
       inputs:
