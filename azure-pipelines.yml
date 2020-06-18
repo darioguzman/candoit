@@ -21,9 +21,14 @@ stages:
       vmImage: 'ubuntu-latest'
     steps:
     - task: Maven@3
-        inputs:
-        mavenPomFile: 'pom.xml' 
-        goals: 'clean install' # Optional
+      inputs:
+        mavenPomFile: 'pom.xml'
+        mavenOptions: '-Xmx3072m'
+        javaHomeOption: 'JDKVersion'
+        jdkVersionOption: '1.11'
+        jdkArchitectureOption: 'x64'
+        publishJUnitResults: false
+        goals: 'package'
     - task: Docker@2
       displayName: Build an image
       inputs:
